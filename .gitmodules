@@ -1,0 +1,4 @@
+[submodule "libs/jviz"]
+	path = libs/jviz
+	url = https://github.com/nodebio/jviz.git
+	branch = dev
