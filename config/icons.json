@@ -1,0 +1,30 @@
+{
+	"actions":
+	[
+		"close",
+		"done",
+		"search",
+		"settings",
+		"zoom_in",
+		"zoom_out"
+	],
+	"alert":
+	[
+
+	],
+	"files":
+	[
+		"trash"
+	],
+	"navigation":
+	[
+		"arrow_down",
+		"arrow_left",
+		"arrow_right",
+		"arrow_up",
+		"drop_down",
+		"drop_left",
+		"drop_right",
+		"drop_up"
+	]
+}
