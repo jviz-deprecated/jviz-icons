@@ -1,30 +1,17 @@
-{
-	"actions":
-	[
-		"close",
-		"done",
-		"search",
-		"settings",
-		"zoom_in",
-		"zoom_out"
-	],
-	"alert":
-	[
-
-	],
-	"files":
-	[
-		"trash"
-	],
-	"navigation":
-	[
-		"arrow_down",
-		"arrow_left",
-		"arrow_right",
-		"arrow_up",
-		"drop_down",
-		"drop_left",
-		"drop_right",
-		"drop_up"
-	]
-}
+[
+	"actions/close.svg",
+	"actions/done.svg",
+	"actions/search.svg",
+	"actions/settings.svg",
+	"actions/zoom_in.svg",
+	"actions/zoom_out.svg",
+	"files/trash.svg",
+	"navigation/arrow_down.svg",
+	"navigation/arrow_left.svg",
+	"navigation/arrow_right.svg",
+	"navigation/arrow_up.svg",
+	"navigation/drop_down.svg",
+	"navigation/drop_left.svg",
+	"navigation/drop_right.svg",
+	"navigation/drop_up.svg"
+]
