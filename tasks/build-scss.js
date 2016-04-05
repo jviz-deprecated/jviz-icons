@@ -5,7 +5,7 @@ var sass = require('gulp-sass');
 module.exports = function(gulp, config){
 
 	//Get the scss files
-	gulp.src([ './scss/*.scss' ])
+	gulp.src([ './docs/scss/*.scss' ])
 
 	//Build
 	.pipe(sass().on('error', sass.logError))
