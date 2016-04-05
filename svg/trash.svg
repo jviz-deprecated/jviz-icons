@@ -13,7 +13,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="delete.svg">
+   sodipodi:docname="trash.svg">
   <metadata
      id="metadata10">
     <rdf:RDF>
@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,14 +42,15 @@
      id="namedview6"
      showgrid="false"
      inkscape:zoom="4.9166667"
-     inkscape:cx="24"
+     inkscape:cx="-9.9661015"
      inkscape:cy="24"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <path
-     d="M12 38c0 2.21 1.79 4 4 4h16c2.21 0 4-1.79 4-4V14H12v24zM38 8h-7l-2-2H19l-2 2h-7v4h28V8z"
+     d="M 14.499972,35.666667 C 14.499972,37.508334 15.991634,39 17.833304,39 l 13.333331,0 c 1.841666,0 3.33333,-1.491666 3.33333,-3.333333 l 0,-20.000001 -20.000006,0 0,20.000001 z m 21.666664,-25.000002 -5.833342,0 L 28.666638,9 l -8.33334,0 -1.666673,1.666665 -5.833325,0 0,3.333337 23.333336,0 0,-3.333337 z"
      id="path4"
-     style="fill:#000000;fill-opacity:1;stroke:none" />
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     inkscape:connector-curvature="0" />
 </svg>
