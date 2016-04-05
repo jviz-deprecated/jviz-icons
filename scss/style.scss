@@ -25,7 +25,38 @@ body { @include jvizBaseBody; @include jvizBaseTypography; }
 
 	//Font
 	font-size: 18px;
+}
 
+//Icons list
+.icons
+{
+	//Display
+	display: block; width: 960px; vertical-align: top;
+
+	//Padding
+	padding: { top: 50px; bottom: 100px; left: 0px; right: 0px; }
+
+	//Margin
+	margin: { top: 0px; bottom: 0px; left: auto; right: auto; }
+
+	//Icon element
+	&-item
+	{
+		//Display
+		display: inline-block; width: 86px; height: 86px;
+
+		//Margin
+		margin: { top: 5px; bottom: 5px; left: 5px; right: 5px; }
+
+		//Border
+		border-radius: 5px;
+
+		//Background
+		background: { repeat: no-repeat; position: center center; size: 50px 50px; }
+
+		//Hover
+		&:hover { background-color: $jvizGrey8; cursor: hand; }
+	}
 }
 
 //Foot
