@@ -5,7 +5,7 @@ var replace = require('gulp-replace');
 module.exports = function(gulp, config, icons){
 
 	//Get the index file
-	gulp.src([ 'index.html' ])
+	gulp.src([ 'docs/index.html' ], { base: 'docs' })
 
 	//Replace the icons
 	.pipe(replace(/{{icons}}/g, JSON.stringify(icons)))
