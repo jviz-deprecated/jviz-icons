@@ -1,25 +1,31 @@
+//Import dependencies
+var fs = require('fs');
+
 //Import tasks
 var BuildIcons = require('./tasks/build-icons.js');
-var BuildWWW = require('./tasks/build-www.js');
+var BuildIndex = require('./tasks/build-index.js');
+var BuildScss = require('./tasks/build-scss.js');
 
 //Import gulp
 var gulp = require('gulp');
 
 //Import config
-var icons = require('./icons/icons.json');
-var colors = require('./icons/colors.json');
+var Config = require('./config.json');
 
-//Output folder
-var output = '../jviz-icons-pages/';
+//Get the icons
+var icons = fs.readdirSync('./svg');
 
 //Build the icons
-gulp.task('build-icons', function(){ BuildIcons(gulp, icons, colors, output); });
+gulp.task('build-icons', function(){ BuildIcons(gulp, Config, icons); });
 
-//Build the website
-gulp.task('build-www', function(){ BuildWWW(gulp, './www/', icons, colors, output); });
+//Build the index page
+gulp.task('build-index', function(){ BuildIndex(gulp, Config, icons); });
+
+//Build the scss files
+gulp.task('build-scss', function(){ BuildScss(gulp, Config); });
 
 //Execute the tasks
-gulp.task('build', ['build-icons', 'build-www']);
+gulp.task('build', ['build-icons', 'build-index', 'build-scss']);
 
 //Default task
 gulp.task('default', ['build']);
