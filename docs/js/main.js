@@ -1,3 +1,9 @@
+//Actual color
+var color = 'navy';
+
+//Actual icon
+var icon = '';
+
 //Document ready
 $(document).ready(function(){
 
@@ -11,10 +17,7 @@ $(document).ready(function(){
 		var div = '<div id="' + ico + '" class="icons-item" ';
 
 		//Add the icon background
-		div = div + 'style="background-image: url(\'svg/navy/' + ico + '\');"';
-
-		//Add the on click event
-		div = div + 'onclick="ClickIcon(\'' + ico + '\')"; >';
+		div = div + 'style="background-image: url(\'svg/navy/' + ico + '\');">';
 
 		//Close the icon div
 		div = div + '</div>';
@@ -24,9 +27,3 @@ $(document).ready(function(){
 	}
 
 });
-
-//Function for click on an icon
-function ClickIcon(ico)
-{
-
-}

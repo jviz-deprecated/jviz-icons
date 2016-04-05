@@ -1,5 +1,5 @@
 //Import jviz
-@import "../libs/jviz/scss/all";
+@import "../../libs/jviz/scss/all";
 
 //Body style
 body { @include jvizBaseBody; @include jvizBaseTypography; }
