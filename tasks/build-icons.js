@@ -24,6 +24,6 @@ module.exports = function(gulp, config, icons)
 		//.pipe(rename({ suffix: '_' + colors[i].name }))
 
 		//Output
-		.pipe(gulp.dest(config.dest + config.colors[i].name + '/'));
+		.pipe(gulp.dest(config.dest + 'svg/' + config.colors[i].name + '/'));
 	}
 };
