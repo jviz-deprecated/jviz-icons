@@ -1,0 +1,36 @@
+//Import jviz
+@import "../libs/jviz/scss/all";
+
+//Body style
+body { @include jvizBaseBody; @include jvizBaseTypography; }
+
+//Jumbotron
+.jumbotron
+{
+	//Include jumbotron style
+	@include jvizLayoutComponentsJumbotron;
+
+	//Update background color
+	background-color: $jvizBlue;
+
+	//Button
+	&-btn { @include jvizFormBtn($jvizWhite, $jvizBlue); margin-top: 20px; }
+}
+
+//Description
+.description
+{
+	//Include main
+	@include jvizLayoutComponentsMain;
+
+	//Font
+	font-size: 18px;
+
+}
+
+//Foot
+.foot
+{
+	//Include foot
+	@include jvizLayoutComponentsFoot;
+}
