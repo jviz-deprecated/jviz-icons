@@ -7,6 +7,22 @@ SVG icons suite for web and user interface design.
 
 ## Overview
 
+![arrow_down](https://cdn.juanes.xyz/images/jviz-icons/blue/arrow_down.svg)
+![arrow_left](https://cdn.juanes.xyz/images/jviz-icons/blue/arrow_left.svg)
+![arrow_right](https://cdn.juanes.xyz/images/jviz-icons/blue/arrow_right.svg)
+![arrow_up](https://cdn.juanes.xyz/images/jviz-icons/blue/arrow_up.svg)
+![bio_karyotypes](https://cdn.juanes.xyz/images/jviz-icons/blue/bio_karyotypes.svg)
+![chevron_down](https://cdn.juanes.xyz/images/jviz-icons/blue/chevron_down.svg)
+![chevron_left](https://cdn.juanes.xyz/images/jviz-icons/blue/chevron_left.svg)
+![chevron_right](https://cdn.juanes.xyz/images/jviz-icons/blue/chevron_right.svg)
+![chevron_up](https://cdn.juanes.xyz/images/jviz-icons/blue/chevron_up.svg)
+![close](https://cdn.juanes.xyz/images/jviz-icons/blue/close.svg)
+![done](https://cdn.juanes.xyz/images/jviz-icons/blue/done.svg)
+![search](https://cdn.juanes.xyz/images/jviz-icons/blue/search.svg)
+![settings](https://cdn.juanes.xyz/images/jviz-icons/blue/settings.svg)
+![trash](https://cdn.juanes.xyz/images/jviz-icons/blue/trash.svg)
+![zoom_in](https://cdn.juanes.xyz/images/jviz-icons/blue/zoom_in.svg)
+![zoom_out](https://cdn.juanes.xyz/images/jviz-icons/blue/zoom_out.svg)   
 
 
 ## Include on your project
