@@ -14,7 +14,7 @@ gulp.task('build', function(){
 	var icons = fs.readdirSync('./svg');
 
 	//Create the regexp
-	var regexp = new RegExp('#000000', 'g');
+	var regexp = new RegExp('#000', 'g');
 
 	//Parse all the icons path
 	for(var i = 0; i < icons.length; i++){ icons[i] = './svg/' + icons[i]; }
