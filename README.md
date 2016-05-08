@@ -11,6 +11,7 @@ SVG icons suite for web and user interface design.
 ![arrow_left](http://cdn.juanes.xyz/images/jviz-icons/blue/arrow_left.svg)
 ![arrow_right](http://cdn.juanes.xyz/images/jviz-icons/blue/arrow_right.svg)
 ![arrow_up](http://cdn.juanes.xyz/images/jviz-icons/blue/arrow_up.svg)
+![bio_karyotypes](http://cdn.juanes.xyz/images/jviz-icons/blue/bio_karyotypes.svg)
 ![chevron_down](http://cdn.juanes.xyz/images/jviz-icons/blue/chevron_down.svg)
 ![chevron_left](http://cdn.juanes.xyz/images/jviz-icons/blue/chevron_left.svg)
 ![chevron_right](http://cdn.juanes.xyz/images/jviz-icons/blue/chevron_right.svg)
