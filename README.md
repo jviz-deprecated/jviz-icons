@@ -30,7 +30,7 @@ SVG icons suite for web and user interface design.
 You can use our icons via our free and public CDN:
 
 ```
-http://cdn.juanes.xyz/images/jviz-icons/{COLOR}/{ICON}.svg
+https://cdn.juanes.xyz/images/jviz-icons/{COLOR}/{ICON}.svg
 ```
 
 Where `{COLOR}` is the icon color, and `{ICON}` is the icon name. The following colors are available:
