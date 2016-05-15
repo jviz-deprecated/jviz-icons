@@ -13,9 +13,6 @@ gulp.task('build', function(){
 	//Get the icons
 	var icons = fs.readdirSync('./svg');
 
-	//Create the regexp
-	var regexp = new RegExp('#000', 'g');
-
 	//Parse all the icons path
 	for(var i = 0; i < icons.length; i++){ icons[i] = './svg/' + icons[i]; }
 
@@ -25,8 +22,11 @@ gulp.task('build', function(){
 		//Get the icons
 		gulp.src(icons, { base: 'svg' })
 
-		//For each, replace the color
-		.pipe(replace(regexp, Config.colors[i].hex))
+		//Replace the first color
+		.pipe(replace(/#000000/g, Config.colors[i].hex))
+
+		//Replace the second color
+		.pipe(replace(/#000/g, Config.colors[i].hex))
 
 		//Rename the file
 		//.pipe(rename({ suffix: '_' + colors[i].name }))
