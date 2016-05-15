@@ -7,30 +7,34 @@ SVG icons suite for web and user interface design.
 
 ## Overview
 
-![arrow_down](http://cdn.juanes.xyz/images/jviz-icons/blue/arrow_down.svg)
-![arrow_left](http://cdn.juanes.xyz/images/jviz-icons/blue/arrow_left.svg)
-![arrow_right](http://cdn.juanes.xyz/images/jviz-icons/blue/arrow_right.svg)
-![arrow_up](http://cdn.juanes.xyz/images/jviz-icons/blue/arrow_up.svg)
-![bio_karyotypes](http://cdn.juanes.xyz/images/jviz-icons/blue/bio_karyotypes.svg)
-![chevron_down](http://cdn.juanes.xyz/images/jviz-icons/blue/chevron_down.svg)
-![chevron_left](http://cdn.juanes.xyz/images/jviz-icons/blue/chevron_left.svg)
-![chevron_right](http://cdn.juanes.xyz/images/jviz-icons/blue/chevron_right.svg)
-![chevron_up](http://cdn.juanes.xyz/images/jviz-icons/blue/chevron_up.svg)
-![close](http://cdn.juanes.xyz/images/jviz-icons/blue/close.svg)
-![done](http://cdn.juanes.xyz/images/jviz-icons/blue/done.svg)
-![error](http://cdn.juanes.xyz/images/jviz-icons/blue/error.svg)
-![error_outline](http://cdn.juanes.xyz/images/jviz-icons/blue/error_outline.svg)
-![home](http://cdn.juanes.xyz/images/jviz-icons/blue/home.svg)
-![home_outline](http://cdn.juanes.xyz/images/jviz-icons/blue/home_outline.svg)
-![info](http://cdn.juanes.xyz/images/jviz-icons/blue/info.svg)
-![info_outline](http://cdn.juanes.xyz/images/jviz-icons/blue/info_outline.svg)
-![search](http://cdn.juanes.xyz/images/jviz-icons/blue/search.svg)
-![settings](http://cdn.juanes.xyz/images/jviz-icons/blue/settings.svg)
-![star](http://cdn.juanes.xyz/images/jviz-icons/blue/star.svg)
-![star_outline](http://cdn.juanes.xyz/images/jviz-icons/blue/star_outline.svg)
-![trash](http://cdn.juanes.xyz/images/jviz-icons/blue/trash.svg)
-![zoom_in](http://cdn.juanes.xyz/images/jviz-icons/blue/zoom_in.svg)
-![zoom_out](http://cdn.juanes.xyz/images/jviz-icons/blue/zoom_out.svg)   
+![arrow_down](https://icons.jviz.juanes.xyz/blue/arrow_down.svg)
+![arrow_left](https://icons.jviz.juanes.xyz/blue/arrow_left.svg)
+![arrow_right](https://icons.jviz.juanes.xyz/blue/arrow_right.svg)
+![arrow_up](https://icons.jviz.juanes.xyz/blue/arrow_up.svg)
+![bio_karyotypes](https://icons.jviz.juanes.xyz/blue/bio_karyotypes.svg)
+![chevron_down](https://icons.jviz.juanes.xyz/blue/chevron_down.svg)
+![chevron_left](https://icons.jviz.juanes.xyz/blue/chevron_left.svg)
+![chevron_right](https://icons.jviz.juanes.xyz/blue/chevron_right.svg)
+![chevron_up](https://icons.jviz.juanes.xyz/blue/chevron_up.svg)
+![close](https://icons.jviz.juanes.xyz/blue/close.svg)
+![completed_outline](https://icons.jviz.juanes.xyz/blue/completed_outline.svg)
+![completed](https://icons.jviz.juanes.xyz/blue/completed.svg)
+![done](https://icons.jviz.juanes.xyz/blue/done.svg)
+![error_outline](https://icons.jviz.juanes.xyz/blue/error_outline.svg)
+![error](https://icons.jviz.juanes.xyz/blue/error.svg)
+![home_outline](https://icons.jviz.juanes.xyz/blue/home_outline.svg)
+![home](https://icons.jviz.juanes.xyz/blue/home.svg)
+![info_outline](https://icons.jviz.juanes.xyz/blue/info_outline.svg)
+![info](https://icons.jviz.juanes.xyz/blue/info.svg)
+![search](https://icons.jviz.juanes.xyz/blue/search.svg)
+![settings](https://icons.jviz.juanes.xyz/blue/settings.svg)
+![star_outline](https://icons.jviz.juanes.xyz/blue/star_outline.svg)
+![star](https://icons.jviz.juanes.xyz/blue/star.svg)
+![trash](https://icons.jviz.juanes.xyz/blue/trash.svg)
+![warning_outline](https://icons.jviz.juanes.xyz/blue/warning_outline.svg)
+![warning](https://icons.jviz.juanes.xyz/blue/warning.svg)
+![zoom_in](https://icons.jviz.juanes.xyz/blue/zoom_in.svg)
+![zoom_out](https://icons.jviz.juanes.xyz/blue/zoom_out.svg)   
 
 
 ## Include on your project
@@ -38,18 +42,18 @@ SVG icons suite for web and user interface design.
 You can use our icons via our free and public CDN:
 
 ```
-https://cdn.juanes.xyz/images/jviz-icons/{COLOR}/{ICON}.svg
+https://icons.jviz.juanes.xyz/{COLOR}/{ICON}.svg
 ```
 
 Where `{COLOR}` is the icon color, and `{ICON}` is the icon name. The following colors are available:
 
 | blue | green | grey | navy | orange |
 | ---- | ----- | ---- | ---- | ------ |
-| ![](http://cdn.juanes.xyz/images/jviz-icons/blue/done.svg) |  ![](http://cdn.juanes.xyz/images/jviz-icons/green/done.svg) | ![](http://cdn.juanes.xyz/images/jviz-icons/grey/done.svg) | ![](http://cdn.juanes.xyz/images/jviz-icons/navy/done.svg) | ![](http://cdn.juanes.xyz/images/jviz-icons/orange/done.svg) |
+| ![](https://icons.jviz.juanes.xyz/blue/completed.svg) |  ![](https://icons.jviz.juanes.xyz/green/completed.svg) | ![](https://icons.jviz.juanes.xyz/grey/completed.svg) | ![](https://icons.jviz.juanes.xyz/navy/completed.svg) | ![](https://icons.jviz.juanes.xyz/orange/completed.svg) |
 
 | pink | purple | red | water | white |
 | ---- | ------ | --- | ----- | ----- |
-| ![](http://cdn.juanes.xyz/images/jviz-icons/pink/done.svg) |  ![](http://cdn.juanes.xyz/images/jviz-icons/purple/done.svg) | ![](http://cdn.juanes.xyz/images/jviz-icons/red/done.svg) | ![](http://cdn.juanes.xyz/images/jviz-icons/water/done.svg) | ![](http://cdn.juanes.xyz/images/jviz-icons/white/done.svg) |
+| ![](https://icons.jviz.juanes.xyz/pink/completed.svg) |  ![](https://icons.jviz.juanes.xyz/purple/completed.svg) | ![](https://icons.jviz.juanes.xyz/red/completed.svg) | ![](https://icons.jviz.juanes.xyz/water/completed.svg) | ![](https://icons.jviz.juanes.xyz/white/completed.svg) |
 
 
 ## Build
