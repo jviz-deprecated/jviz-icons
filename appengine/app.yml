@@ -1,0 +1,17 @@
+application: jviz-icons
+runtime: python27
+version: v1
+api_version: 1
+threadsafe: true
+
+env_variables:
+
+handlers:
+
+- url: /.well-known/acme-challenge/.*
+  static_files: challenge.txt
+  upload: challenge.txt
+
+- url: /(.+)
+  static_files: \1
+  upload: (.*)
