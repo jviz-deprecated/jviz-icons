@@ -58,7 +58,7 @@ Where `{COLOR}` is the icon color, and `{ICON}` is the icon name. The following 
 
 ## Build
 
-By default, you have all the icons on the `svg/` folder. Yo can also build the icons with the colors provided on the `config.json` file following the next steps.
+By default, you have all the icons on the `svg/` folder. Yo can also build the icons with the colors provided on the `colors.json` file following the next steps.
 
 First of all, you need to install [NPM](https://npmjs.com). When you have installed it, run
 
@@ -72,7 +72,7 @@ This will install all the dependencies. For build the icons, now you can run
 gulp build
 ```
 
-This will generate one folder in the `dist/` folder for each color defined in the `config.json` file.
+This will generate one folder in the `dist/` folder for each color defined in the `colors.json` file.
 
 
 ## License
