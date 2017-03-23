@@ -12,11 +12,23 @@ The Jviz Project is under the MIT License. See https://github.com/jviz/jviz/blob
 <dom-module id="jviz-icons">
   <template>
     <style>
-
+      /* Icon variables */
+      :host
+      {
+        --jviz-icon-width: 0px;
+        --jviz-icon-height: 0px;
+        --jviz-icon-color: #000000;
+      }
+      :host icon
+      {
+        width: var(--jviz-icon-width);
+        height: var(--jviz-icon-height);
+        color: var(--jviz-icon-color);
+      }
     </style>
     <!-- Svg icon -->
-    <svg viewBox="0 0 16 16" class="icon icon-fire">
-      <use xlink:href="#{{ icon }}"></use>
+    <svg viewBox="0 0 48 48" class="icon" style="width:{{width}};height:{{height}};">
+      <use xlink:href="#{{icon}}"></use>
     </svg>
   </template>
 </dom-module>
@@ -30,7 +42,39 @@ var jviz_icons = { is: 'jviz-icons' };
 //Properties
 jviz_icons.properties = {};
 jviz_icons.properties.icon = { type: String, reflectToAttribute: true };
+jviz_icons.properties.iconWidth = { type: String, reflectToAttribute: true, observer: 'update_width' };
+jviz_icons.properties.iconHeight = { type: String, reflectToAttribute: true, observer: 'update_height' };
+jviz_icons.properties.iconColor = { type: String, reflectToAttribute: true, observer: 'uodate_color' };
 
+//Update the icon color
+jviz_icons.update_color = function(value)
+{
+  //Update the icon color
+  this.customStyle['--jviz-icon-color'] = 'var(--jviz-' + value + ')';
+
+  //Update the styles
+  this.updateStyles();
+};
+
+//Update the icon width
+jviz_icons.update_width = function(value)
+{
+  //Update the icon width
+  this.customStyle['--jviz-icon-width'] = value.replace('px', '').replace('%', '') + 'px';
+
+  //Update the styles
+  this.updateStyles();
+};
+
+//Update the icon height
+jviz_icons.update_height = function(value)
+{
+  //Update the icon height
+  this.customStyle['--jviz-icon-height'] = value.replace('px', '').replace('%', '') + 'px';
+
+  //Update the styles
+  this.updateStyles();
+};
 
 </script>
 
