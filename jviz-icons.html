@@ -15,14 +15,13 @@ The Jviz Project is under the MIT License. See https://github.com/jviz/jviz/blob
       /* Icon variables */
       :host
       {
-        --jviz-icon-width: 0px;
-        --jviz-icon-height: 0px;
+        --jviz-icon-size: 0px;
         --jviz-icon-color: #000000;
       }
       :host .icon
       {
-        width: var(--jviz-icon-width);
-        height: var(--jviz-icon-height);
+        width: var(--jviz-icon-size);
+        height: var(--jviz-icon-size);
         fill: var(--jviz-icon-color) !important;
       }
     </style>
@@ -40,8 +39,7 @@ var jviz_icons = { is: 'jviz-icons' };
 //Properties
 jviz_icons.properties = {};
 jviz_icons.properties.iconImage = { type: String, reflectToAttribute: true, observer: 'update_image' };
-jviz_icons.properties.iconWidth = { type: String, reflectToAttribute: true, observer: 'update_width' };
-jviz_icons.properties.iconHeight = { type: String, reflectToAttribute: true, observer: 'update_height' };
+jviz_icons.properties.iconSize = { type: String, reflectToAttribute: true, observer: 'update_size' };
 jviz_icons.properties.iconColor = { type: String, reflectToAttribute: true, observer: 'update_color' };
 
 //Update the icon image
@@ -61,22 +59,11 @@ jviz_icons.update_color = function(value)
   this.updateStyles();
 };
 
-//Update the icon width
-jviz_icons.update_width = function(value)
-{
-  //Update the icon width
-  this.customStyle['--jviz-icon-width'] = value.replace('px', '').replace('%', '') + 'px';
-  console.log(this.customStyle['--jviz-icon-width']);
-
-  //Update the styles
-  this.updateStyles();
-};
-
-//Update the icon height
-jviz_icons.update_height = function(value)
+//Update the icon size
+jviz_icons.update_size = function(value)
 {
   //Update the icon height
-  this.customStyle['--jviz-icon-height'] = value.replace('px', '').replace('%', '') + 'px';
+  this.customStyle['--jviz-icon-size'] = value.replace('px', '').replace('%', '') + 'px';
 
   //Update the styles
   this.updateStyles();
