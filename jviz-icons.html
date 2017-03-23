@@ -1,0 +1,38 @@
+<!--
+@license
+Copyright (c) 2016 The Jviz Project Authors. All rights reserved.
+The Jviz Project is under the MIT License. See https://github.com/jviz/jviz/blob/dev/LICENSE
+-->
+
+<!-- Import dependencies -->
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../jviz-styles/jviz-styles.html">
+
+<!-- Icon element -->
+<dom-module id="jviz-icons">
+  <template>
+    <style>
+
+    </style>
+    <!-- Svg icon -->
+    <svg viewBox="0 0 16 16" class="icon icon-fire">
+      <use xlink:href="#{{ icon }}"></use>
+    </svg>
+  </template>
+</dom-module>
+
+<!-- Icon logic -->
+<script>
+
+//Icon component
+var jviz_icons = { is: 'jviz-icons' };
+
+//Properties
+jviz_icons.properties = {};
+jviz_icons.properties.icon = { type: String, reflectToAttribute: true };
+
+
+</script>
+
+<!-- Register the button element -->
+<script> Polymer(jviz_icons); </script>
