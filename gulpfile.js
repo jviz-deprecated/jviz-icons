@@ -5,7 +5,7 @@ var svgstore = require('gulp-svgstore');
 var svgmin = require('gulp-svgmin');
 
 //Build the svg sprite task
-gulp.task('default', function()
+gulp.task('build', function()
 {
   //Get the svg files
   return gulp.src('svg/*.svg', { base: 'svg/' })
@@ -26,3 +26,6 @@ gulp.task('default', function()
   //Save the sprite image
   .pipe(gulp.dest('./'));
 });
+
+//Default task
+gulp.task('default', [ 'build' ]);
