@@ -45,8 +45,11 @@ jviz_icons.properties.iconColor = { type: String, reflectToAttribute: true, obse
 //Update the icon image
 jviz_icons.update_image = function(value)
 {
+  //Get the reltive path to this icon
+  var url = this.resolveUrl('./svg.svg');
+
   //Update the icon
-  this.$.icon.innerHTML = '<use xlink:href="svg.svg#' + value + '"></use>';
+  this.$.icon.innerHTML = '<use xlink:href="' + url + '#' + value + '"></use>';
 };
 
 //Update the icon color
