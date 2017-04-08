@@ -40,7 +40,11 @@ var jviz_icons = { is: 'jviz-icons' };
 jviz_icons.properties = {};
 jviz_icons.properties.icon = { type: String, reflectToAttribute: true, observer: '_update_icon' };
 jviz_icons.properties.size = { type: String, reflectToAttribute: true, observer: '_update_size' };
-jviz_icons.properties.color = { type: String, reflectToAttribute: true, observer: '_update_color' };
+jviz_icons.properties.color = { type: String, reflectToAttribute: true };
+jviz_icons.properties.reflect = { type: Boolean, reflectToAttribute: true };
+
+//Observers
+jviz_icons.observers = [ '_update_color(color, reflect)' ];
 
 //Update the icon image
 jviz_icons._update_icon = function(value)
@@ -49,14 +53,17 @@ jviz_icons._update_icon = function(value)
   var url = this.resolveUrl('./svg.svg');
 
   //Update the icon
-  this.$.icon.innerHTML = '<use xlink:href="' + url + '#' + value + '"></use>';
+  this.$.icon.innerHTML = '<' + 'use xlink:href="' + url + '#' + value + '"></use>';
 };
 
 //Update the icon color
-jviz_icons._update_color = function(value)
+jviz_icons._update_color = function()
 {
+  //Get the color variable
+  var color_variable = (this.reflect === true) ? 'var(--jviz-' + value + '-over)' : 'var(--jviz-' + value + ')';
+
   //Update the icon color
-  this.customStyle['--jviz-icon-color'] = 'var(--jviz-' + value + ')';
+  this.customStyle['--jviz-icon-color'] = color_variable;
 
   //Update the styles
   this.updateStyles();
@@ -72,7 +79,7 @@ jviz_icons._update_size = function(value)
   this.updateStyles();
 };
 
-</script>
+//Register the icon element
+Polymer(jviz_icons);
 
-<!-- Register the button element -->
-<script> Polymer(jviz_icons); </script>
+</script>
